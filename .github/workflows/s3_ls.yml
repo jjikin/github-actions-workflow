@@ -21,7 +21,7 @@ jobs:
        uses: aws-actions/configure-aws-credentials@master
        with:
          aws-region: ap-northeast-2
-         role-to-assume: arn:aws:iam::371604478497:role/github_actions_Role
+         role-to-assume: arn:aws:iam::371604478497:role/GithubActionsRole
          role-session-name: GithubActionsSession
     
      - name: list bucket
